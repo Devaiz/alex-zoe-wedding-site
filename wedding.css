@@ -33,8 +33,6 @@ color: #ffffff;
 
 
 header{
-  
-  
   text-align: center;
   display: table;
 }
@@ -62,12 +60,14 @@ header{
   font-family: 'Libre Baskerville', serif;
   font-size: 1.2rem;
   font-weight: 500;
+  letter-spacing: 0.07rem;
 }
 
 .name {
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;
   padding-top: 1rem;
+  letter-spacing: 0.07rem;
 }
 
 .white-line {
@@ -89,4 +89,24 @@ header{
   width: 1.5rem;
   vertical-align: middle;
   margin: 0.5rem;
+}
+
+
+@media screen and (min-width:786px) {
+  
+  .quote {
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  .quote, .date {
+    font-size: 1.6rem;
+  }
+  
+  .name {
+    font-size: 5rem;
+  }
+  
 }
