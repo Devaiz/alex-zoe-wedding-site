@@ -142,6 +142,7 @@ header{
 .locations{
   background-size: cover;
   width: 100vw;
+  padding-bottom: 1.5rem;
 }
 
 .ceremony, .party, .photos {
@@ -185,12 +186,38 @@ img {
 }
 
 
+/* PROGRAM STYLE CODE */
 
+.program {
+  background-color: hsla(100,0%,0%,.6);
+  display: table-cell;
+  width: 100vw;
+}
 
+.table{
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
 
+.quote-gold {
+  color: #d2ba87;
+  font-style: italic;
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+}
 
+ol {
+  font-size: 1.15rem;
+  line-height: 1.7rem;
+  font-family: 'Muli', sans-serif;
+}
 
-
-
-
+@media screen and (min-width:786px) {
+  
+  .table {
+    width: 30vw;
+    margin: 0 auto;
+  }
+    
+}
 
