@@ -7,7 +7,7 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Muli', sans-serif;
 */
 
-/* UNIVERSAL STYLE CODE */
+/* GENERAL STYLE CODE */
 
 * {
   box-sizing: border-box;
@@ -27,6 +27,25 @@ color: #ffffff;
 
 .gold{
   color: #d2ba87;
+}
+
+h1, h2, p.adress {
+  text-align: center;
+  color: #444349;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  padding: 3rem 0 2rem 0;
+  letter-spacing: 0.07rem;
+  
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
 
 /* HEADER STYLE CODE */
@@ -125,21 +144,6 @@ header{
   width: 100vw;
 }
 
-h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
-  padding-top: 1rem;
-  letter-spacing: 0.07rem;
-  text-align: center;
-}
-
-h2 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.3rem;
-  text-align: center;
-  font-weight: 700;
-}
-
 .ceremony, .party, .photos {
   display: inline-block;
   width: 100vw;
@@ -150,13 +154,42 @@ h2 {
 
 p.adress {
   font-family: 'Muli', sans-serif;;
-  text-align: center;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
 }
 
 img {
   width: 7.5rem;
-  padding-bottom: 1.5rem;
+  padding: 2.5rem 0;
 }
+
+.black-line {
+  display: inline-block;
+  border-bottom: 2px solid #444349;
+  width: 7em;
+  align-content: center;
+}
+
+@media screen and (min-width:786px) {
+  
+  .black-line{
+    display: none;
+  }
+  
+  .ceremony, .party, .photos {
+    display: inline-block;
+    width: 32%;
+  }
+  
+}
+
+
+
+
+
+
+
 
 
 
