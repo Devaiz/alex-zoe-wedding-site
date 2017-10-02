@@ -40,7 +40,7 @@ header{
 .head{
   background: url(assets/wedding-landing-cover.jpg) no-repeat 70% center / cover;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: table-cell;
   vertical-align: middle;
@@ -48,7 +48,7 @@ header{
 
 .tagline{
   display: block;
-  width:100vw;
+  width: 100vw;
   height: auto;
   background-color: hsla(100,0%,0%,.6);
   display: table-cell;
@@ -96,17 +96,22 @@ header{
   
   .quote {
     text-transform: uppercase;
+    font-size: 1.3rem;
   }
   
-  
-  
-  
-  .quote, .date {
-    font-size: 1.6rem;
+  .date{
+    font-size: 1.3rem;
   }
   
   .name {
-    font-size: 5rem;
+    font-size: 4.5rem;
+  }
+  
+  .tagline{
+    display: inline-block;
+    width: 27rem;
+    text-align: center;
+    padding 1.3rem 0;
   }
   
 }
