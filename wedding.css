@@ -115,3 +115,49 @@ header{
   }
   
 }
+
+
+/* LOCATIONS STYLE CODE */
+
+
+.locations{
+  background-size: cover;
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  padding-top: 1rem;
+  letter-spacing: 0.07rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.ceremony, .party, .photos {
+  display: inline-block;
+  width: 100vw;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem 0;
+}
+
+p.adress {
+  font-family: 'Muli', sans-serif;;
+  text-align: center;
+}
+
+img {
+  width: 7.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+
+
