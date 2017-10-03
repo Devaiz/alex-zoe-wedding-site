@@ -168,7 +168,7 @@ img {
 .black-line {
   display: inline-block;
   border-bottom: 2px solid #444349;
-  width: 7em;
+  width: 7rem;
   align-content: center;
 }
 
@@ -220,4 +220,73 @@ ol {
   }
     
 }
+
+
+/* GIFTS STYLE CODE */
+
+
+
+.gifts {
+  display: inline-block;
+  width: 100vw;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+
+/* QUESTIONS AND ANSWERS STYLE CODE */
+
+
+.q-and-a {
+  background-color: hsla(100,0%,0%,.6);
+  display: table-cell;
+  width: 100vw;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+h2, h3 {
+  padding-bottom: 1rem;
+}
+
+p.qa-text {
+  font-family: 'Muli', sans-serif;;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.travel, .other, .food {
+  padding-left: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .15s ease-in-out; 
+}
+
+.gold-line {
+  display: table-cell;
+  border-bottom: 2px solid #d2ba87;
+  width: 7rem;
+  vertical-align: center;
+  padding-bottom: 2rem;
+}
+
+
+
+
+
 
