@@ -250,14 +250,11 @@ h3 {
   font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
   padding-bottom: 1.5rem;
-}
-
-h3 {
-  padding-bottom: 1rem;
 }
 
 p.qa-text {
@@ -305,6 +302,22 @@ a:hover {
   }
   
 }
+
+/* CONTACT STYLE CODE */
+
+.contact {
+  text-align: center;
+}
+
+p.black {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+
+
 
 
 
