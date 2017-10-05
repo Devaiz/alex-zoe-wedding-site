@@ -91,8 +91,8 @@ header{
 
 .white-line {
   display: inline-block;
-  border-bottom: 1px solid #fff;
-  width: 12em;
+  border-bottom: .1rem solid #fff;
+  width: 11em;
   align-content: center;
 }
 
@@ -104,7 +104,7 @@ header{
   display: inline-block;
   content: "";
   background-color: #fff;
-  height: 1px;
+  height: .1rem;
   width: 1.5rem;
   vertical-align: middle;
   margin: 0.5rem;
@@ -167,8 +167,8 @@ img {
 
 .black-line {
   display: inline-block;
-  border-bottom: 2px solid #444349;
-  width: 7rem;
+  border-bottom: .125rem solid #444349;
+  width: 25vw;
   align-content: center;
 }
 
@@ -252,7 +252,11 @@ h3 {
   line-height: 1.5rem;
 }
 
-h2, h3 {
+h2 {
+  padding-bottom: 1.5rem;
+}
+
+h3 {
   padding-bottom: 1rem;
 }
 
@@ -264,7 +268,11 @@ p.qa-text {
 }
 
 .travel, .other, .food {
-  padding-left: 1.5rem;
+  display: inline-block;
+  width: 100vw;
+  text-align: left;
+  vertical-align: left;
+  padding: 1rem 1.5rem 2rem;
 }
 
 a {
@@ -278,14 +286,25 @@ a:hover {
 }
 
 .gold-line {
-  display: table-cell;
-  border-bottom: 2px solid #d2ba87;
-  width: 7rem;
-  vertical-align: center;
-  padding-bottom: 2rem;
+  width: 50vw;
+  border-bottom: .125rem solid #d2ba87;
+  margin: auto;
+  margin-top: 1rem;
 }
 
-
+@media screen and (min-width: 768px) {
+  
+  .gold-line {
+    display: none;
+  }
+  
+  .travel, .other, .food {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+  }
+  
+}
 
 
 
