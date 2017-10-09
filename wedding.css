@@ -147,7 +147,7 @@ header{
   .tagline {
     display: inline-block;
     width: 27rem;
-    padding 1.3rem 0;
+    padding: 1.3rem 0;
   }
   
 }
@@ -260,7 +260,6 @@ h2 {
 .travel, .other, .food {
   width: 100vw;
   text-align: left;
-  vertical-align: left;
   padding: 1rem 1.5rem 2rem;
 }
 
