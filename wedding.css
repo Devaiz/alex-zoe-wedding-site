@@ -21,38 +21,61 @@ body {
 color: #ffffff;
 }
 
-.black {
+.black, h1, h2, p.adress {
   color: #444349;
 }
 
-.gold{
+.gold, .quote-gold {
   color: #d2ba87;
 }
 
-h1, h2, p.adress {
+h1, h2, p.adress, header, .tagline,
+.ceremony, .party, .photos, .gifts,
+.contact, footer {
   text-align: center;
-  color: #444349;
 }
 
 h1 {
-  font-family: 'Great Vibes', cursive;
   font-size: 3rem;
   padding: 3rem 0 2rem 0;
   letter-spacing: 0.07rem;
-  
 }
 
 h2 {
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.6rem;
   font-weight: 700;
 }
+
+
+.white-line, .date::before, .date::after,
+.tagline, .ceremony, .party, .photos,
+.black-line, .gifts, .travel, .other, .food {
+  display: inline-block;
+}
+
+.quote, .date, .gifts, h2, h3, p.black {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.name, h1 {
+  font-family: 'Great Vibes', cursive;
+}
+
+footer, p.qa-text, ol, p.adress {
+  font-family: 'Muli', sans-serif;
+}
+
+p.qa-text, p.adress {
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;  
+}
+
 
 /* HEADER STYLE CODE */
 
 
 header{
-  text-align: center;
   display: table;
 }
 
@@ -66,7 +89,6 @@ header{
 }
 
 .tagline{
-  display: block;
   width: 100vw;
   height: auto;
   background-color: hsla(100,0%,0%,.6);
@@ -76,21 +98,18 @@ header{
 }
 
 .quote, .date {
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.07rem;
 }
 
 .name {
-  font-family: 'Great Vibes', cursive;
   font-size: 3rem;
   padding-top: 1rem;
   letter-spacing: 0.07rem;
 }
 
 .white-line {
-  display: inline-block;
   border-bottom: .1rem solid #fff;
   width: 11em;
   align-content: center;
@@ -101,7 +120,6 @@ header{
 }
 
 .date::before, .date::after {
-  display: inline-block;
   content: "";
   background-color: #fff;
   height: .1rem;
@@ -126,10 +144,9 @@ header{
     font-size: 4.5rem;
   }
   
-  .tagline{
+  .tagline {
     display: inline-block;
     width: 27rem;
-    text-align: center;
     padding 1.3rem 0;
   }
   
@@ -146,19 +163,11 @@ header{
 }
 
 .ceremony, .party, .photos {
-  display: inline-block;
   width: 100vw;
-  text-align: center;
   vertical-align: middle;
   padding: 1rem 0;
 }
 
-p.adress {
-  font-family: 'Muli', sans-serif;;
-  padding-bottom: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.2rem;
-}
 
 img {
   width: 7.5rem;
@@ -166,7 +175,6 @@ img {
 }
 
 .black-line {
-  display: inline-block;
   border-bottom: .125rem solid #444349;
   width: 25vw;
   align-content: center;
@@ -179,7 +187,6 @@ img {
   }
   
   .ceremony, .party, .photos {
-    display: inline-block;
     width: 32%;
   }
   
@@ -200,7 +207,6 @@ img {
 }
 
 .quote-gold {
-  color: #d2ba87;
   font-style: italic;
   font-size: 1.3rem;
   padding-bottom: 1.5rem;
@@ -209,7 +215,6 @@ img {
 ol {
   font-size: 1.15rem;
   line-height: 1.7rem;
-  font-family: 'Muli', sans-serif;
 }
 
 @media screen and (min-width:786px) {
@@ -224,13 +229,8 @@ ol {
 
 /* GIFTS STYLE CODE */
 
-
-
 .gifts {
-  display: inline-block;
   width: 100vw;
-  text-align: center;
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.2rem;
   padding-bottom: 2rem;
 }
@@ -246,7 +246,6 @@ ol {
 }
 
 h3 {
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.5rem;
@@ -257,15 +256,8 @@ h2 {
   padding-bottom: 1.5rem;
 }
 
-p.qa-text {
-  font-family: 'Muli', sans-serif;;
-  padding-bottom: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.2rem;
-}
 
 .travel, .other, .food {
-  display: inline-block;
   width: 100vw;
   text-align: left;
   vertical-align: left;
@@ -296,7 +288,6 @@ a:hover {
   }
   
   .travel, .other, .food {
-    display: inline-block;
     width: 32%;
     vertical-align: top;
   }
@@ -305,12 +296,8 @@ a:hover {
 
 /* CONTACT STYLE CODE */
 
-.contact {
-  text-align: center;
-}
 
 p.black {
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.15rem;
   line-height: 1.5rem;
   padding-bottom: 2rem;
@@ -318,6 +305,14 @@ p.black {
 
 
 
+/* FOOTER STYLE CODE */
 
-
+footer{
+  background-color: #606060;
+  width: 100vw;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: .9rem;
+  color: #fff;
+}
 
